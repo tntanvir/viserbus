@@ -1,0 +1,290 @@
+[
+    {
+        "pickup_point": "Dhaka",
+        "dropoff_point": "Rangpur",
+        "date_time": "2024-09-15",
+        "pickup_time": "2024-09-15",
+        "dropoff_time": "2024-09-15",
+        "price": 1200,
+        "bus_name": "Classic Express",
+        "bus_type": "Classic",
+        "facilities": [
+            "Water Bottle",
+            "Pillow",
+            "Wifi"
+        ]
+    },
+    {
+        "pickup_point": "Chittagong",
+        "dropoff_point": "Sylhet",
+        "date_time": "2024-09-16",
+        "pickup_time": "2024-09-16",
+        "dropoff_time": "2024-09-16",
+        "price": 1500,
+        "bus_name": "Coach Deluxe",
+        "bus_type": "Coach",
+        "facilities": [
+            "Water Bottle",
+            "Pillow"
+        ]
+    },
+    {
+        "pickup_point": "Barisal",
+        "dropoff_point": "Khulna",
+        "date_time": "2024-09-17",
+        "pickup_time": "2024-09-17",
+        "dropoff_time": "2024-09-17",
+        "price": 800,
+        "bus_name": "AC Shuttle",
+        "bus_type": "AC",
+        "facilities": [
+            "Water Bottle",
+            "Wifi"
+        ]
+    },
+    {
+        "pickup_point": "Rajshahi",
+        "dropoff_point": "Comilla",
+        "date_time": "2024-09-18",
+        "pickup_time": "2024-09-18",
+        "dropoff_time": "2024-09-18",
+        "price": 1300,
+        "bus_name": "Classic Comfort",
+        "bus_type": "Classic",
+        "facilities": [
+            "Pillow",
+            "Wifi"
+        ]
+    },
+    {
+        "pickup_point": "Cox's Bazar",
+        "dropoff_point": "Bandarban",
+        "date_time": "2024-09-19",
+        "pickup_time": "2024-09-19",
+        "dropoff_time": "2024-09-19T18:30:00",
+        "price": 900,
+        "bus_name": "Coach Explorer",
+        "bus_type": "Coach",
+        "facilities": [
+            "Water Bottle",
+            "Pillow",
+            "Wifi"
+        ]
+    },
+    {
+        "pickup_point": "Dhaka",
+        "dropoff_point": "Sylhet",
+        "date_time": "2024-09-20",
+        "pickup_time": "2024-09-20",
+        "dropoff_time": "2024-09-20",
+        "price": 1400,
+        "bus_name": "AC Voyager",
+        "bus_type": "AC",
+        "facilities": [
+            "Water Bottle",
+            "Pillow",
+            "Wifi"
+        ]
+    },
+    {
+        "pickup_point": "Jessore",
+        "dropoff_point": "Mymensingh",
+        "date_time": "2024-09-21",
+        "pickup_time": "2024-09-21",
+        "dropoff_time": "2024-09-21",
+        "price": 1100,
+        "bus_name": "Coach Comfort",
+        "bus_type": "Coach",
+        "facilities": [
+            "Water Bottle",
+            "Pillow"
+        ]
+    },
+    {
+        "pickup_point": "Khulna",
+        "dropoff_point": "Barisal",
+        "date_time": "2024-09-22",
+        "pickup_time": "2024-09-22",
+        "dropoff_time": "2024-09-22",
+        "price": 1000,
+        "bus_name": "Classic Traveler",
+        "bus_type": "Classic",
+        "facilities": [
+            "Water Bottle",
+            "Wifi"
+        ]
+    },
+    {
+        "pickup_point": "Mymensingh",
+        "dropoff_point": "Rajshahi",
+        "date_time": "2024-09-23",
+        "pickup_time": "2024-09-23",
+        "dropoff_time": "2024-09-23",
+        "price": 1200,
+        "bus_name": "AC Premier",
+        "bus_type": "AC",
+        "facilities": [
+            "Water Bottle",
+            "Pillow",
+            "Wifi"
+        ]
+    },
+    {
+        "pickup_point": "Feni",
+        "dropoff_point": "Chittagong",
+        "date_time": "2024-09-24",
+        "pickup_time": "2024-09-24",
+        "dropoff_time": "2024-09-24",
+        "price": 500,
+        "bus_name": "Coach Express",
+        "bus_type": "Coach",
+        "facilities": [
+            "Water Bottle"
+        ]
+    },
+    {
+        "pickup_point": "Dhaka",
+        "dropoff_point": "Khulna",
+        "date_time": "2024-09-25",
+        "pickup_time": "2024-09-25",
+        "dropoff_time": "2024-09-25",
+        "price": 1500,
+        "bus_name": "AC Elite",
+        "bus_type": "AC",
+        "facilities": [
+            "Water Bottle",
+            "Pillow",
+            "Wifi"
+        ]
+    },
+    {
+        "pickup_point": "Sylhet",
+        "dropoff_point": "Cox's Bazar",
+        "date_time": "2024-09-26",
+        "pickup_time": "2024-09-26",
+        "dropoff_time": "2024-09-26",
+        "price": 1600,
+        "bus_name": "AC Voyager",
+        "bus_type": "AC",
+        "facilities": [
+            "Water Bottle",
+            "Pillow",
+            "Wifi"
+        ]
+    },
+    {
+        "pickup_point": "Comilla",
+        "dropoff_point": "Feni",
+        "date_time": "2024-09-27",
+        "pickup_time": "2024-09-27",
+        "dropoff_time": "2024-09-27",
+        "price": 300,
+        "bus_name": "Classic Shuttle",
+        "bus_type": "Classic",
+        "facilities": [
+            "Water Bottle"
+        ]
+    },
+    {
+        "pickup_point": "Bandarban",
+        "dropoff_point": "Chittagong",
+        "date_time": "2024-09-28",
+        "pickup_time": "2024-09-28",
+        "dropoff_time": "2024-09-28",
+        "price": 600,
+        "bus_name": "Coach Explorer",
+        "bus_type": "Coach",
+        "facilities": [
+            "Water Bottle",
+            "Pillow"
+        ]
+    },
+    {
+        "pickup_point": "Rangpur",
+        "dropoff_point": "Jessore",
+        "date_time": "2024-09-29",
+        "pickup_time": "2024-09-29",
+        "dropoff_time": "2024-09-29",
+        "price": 1600,
+        "bus_name": "AC Premier",
+        "bus_type": "AC",
+        "facilities": [
+            "Water Bottle",
+            "Pillow",
+            "Wifi"
+        ]
+    },
+    {
+        "pickup_point": "Rajshahi",
+        "dropoff_point": "Dhaka",
+        "date_time": "2024-09-30",
+        "pickup_time": "2024-09-30",
+        "dropoff_time": "2024-09-30",
+        "price": 1300,
+        "bus_name": "Classic Express",
+        "bus_type": "Classic",
+        "facilities": [
+            "Water Bottle",
+            "Pillow"
+        ]
+    },
+    {
+        "pickup_point": "Sylhet",
+        "dropoff_point": "Mymensingh",
+        "date_time": "2024-10-01",
+        "pickup_time": "2024-10-01",
+        "dropoff_time": "2024-10-01",
+        "price": 1100,
+        "bus_name": "AC Shuttle",
+        "bus_type": "AC",
+        "facilities": [
+            "Water Bottle",
+            "Pillow",
+            "Wifi"
+        ]
+    },
+    {
+        "pickup_point": "Barisal",
+        "dropoff_point": "Jessore",
+        "date_time": "2024-10-02",
+        "pickup_time": "2024-10-02",
+        "dropoff_time": "2024-10-02",
+        "price": 900,
+        "bus_name": "Classic Comfort",
+        "bus_type": "Classic",
+        "facilities": [
+            "Water Bottle",
+            "Pillow"
+        ]
+    },
+    {
+        "pickup_point": "Dhaka",
+        "dropoff_point": "Cox's Bazar",
+        "date_time": "2024-10-03",
+        "pickup_time": "2024-10-03",
+        "dropoff_time": "2024-10-03",
+        "price": 1800,
+        "bus_name": "AC Elite",
+        "bus_type": "AC",
+        "facilities": [
+            "Water Bottle",
+            "Pillow",
+            "Wifi"
+        ]
+    },
+    {
+        "pickup_point": "Chittagong",
+        "dropoff_point": "Rangpur",
+        "date_time": "2024-10-04",
+        "pickup_time": "2024-10-04",
+        "dropoff_time": "2024-10-04",
+        "price": 1900,
+        "bus_name": "Coach Deluxe",
+        "bus_type": "Coach",
+        "facilities": [
+            "Water Bottle",
+            "Pillow",
+            "Wifi"
+        ]
+    }
+]
