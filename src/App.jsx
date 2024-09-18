@@ -11,6 +11,7 @@ import {
 import About from './component/About';
 import Contect from './component/Contect';
 import GetTicket from './component/GetTicket';
+import Booking from './component/Booking';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path='/about' element={<About />} />
           <Route path='/contect' element={<Contect />} />
           <Route path='/ticket' element={<GetTicket />} />
+          <Route path='/ticket/:id' element={<Booking />} />
         </Routes>
         <Footer />
 

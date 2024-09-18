@@ -7,6 +7,8 @@ import {
 } from "@material-tailwind/react";
 import { Button } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
+import { IoClose, IoMenu } from "react-icons/io5";
+import logo from '../assets/image/logo.png'
 
 function NavList() {
     return (
@@ -41,7 +43,12 @@ function NavList() {
                     Contect
                 </Link>
             </Typography>
+            <div className="w-full lg:hidden">
 
+                <Link to='/ticket'>
+                    <Button className="bg-primary w-full">Buy Ticket</Button>
+                </Link>
+            </div>
         </ul>
     );
 }
@@ -61,7 +68,7 @@ export function NavbarManu() {
     }, []);
 
     return (
-        <Navbar className="rounded-none  px-20 py-1">
+        <Navbar className="rounded-none  md:px-20 px-3 py-1">
             <div className="flex items-center justify-between text-blue-gray-900">
                 <Link to='/' >
                     <Typography
@@ -69,7 +76,7 @@ export function NavbarManu() {
                         variant="h6"
                         className="mr-4 cursor-pointer py-1.5"
                     >
-                        <img src="/src/assets/image/logo.png" width={100} />
+                        <img src={logo} width={100} />
                     </Typography>
                 </Link>
                 <div className="hidden lg:block">
@@ -87,10 +94,12 @@ export function NavbarManu() {
                     onClick={() => setOpenNav(!openNav)}
                 >
                     {openNav ? (
-                        <div>open</div>
+                        <IoClose className="text-3xl" />
 
                     ) : (
-                        <div>open</div>
+
+                        <IoMenu className="text-3xl" />
+
                     )}
                 </IconButton>
             </div>

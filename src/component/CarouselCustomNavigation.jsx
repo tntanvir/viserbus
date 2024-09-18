@@ -4,9 +4,9 @@ import { Review } from "./Review";
 export function CarouselCustomNavigation() {
     return (
         <Carousel
-            className="rounded-xl w-4/5 h-96 shadow-lg "
-            // autoplay={true}
-            // loop={true}
+            className="rounded-xl md:w-4/5 w-full h-96 shadow-lg "
+            autoplay={true}
+            loop={true}
             navigation={({ setActiveIndex, activeIndex, length }) => (
                 <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                     {new Array(length).fill("").map((_, i) => (

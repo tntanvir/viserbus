@@ -5,13 +5,13 @@ import { LiaSearchSolid } from 'react-icons/lia';
 
 const Steps = () => {
     return (
-        <div className='min-h-screen pt-20 flex flex-col  items-center gap-12 px-20'>
-            <div className='w-1/2 flex items-center flex-col text-center gap-3'>
+        <div className='min-h-screen pt-20 flex flex-col  items-center gap-12 md:px-20 px-3'>
+            <div className='md:w-1/2  w-full flex items-center flex-col text-center gap-3'>
                 <h1 className='text-4xl font-bold'>Get Your Tickets With Just 3 Steps</h1>
                 <p>Have a look at our popular reason. why you should choose you bus. Just a Bus and get a ticket for your great journey. !</p>
             </div>
 
-            <div className='flex gap-4'>
+            <div className='flex gap-4 flex-wrap md:flex-nowrap'>
                 <div className='shadow-md hover:shadow-lg p-3 py-10 px-5 flex flex-col gap-3 rounded-lg cursor-pointer'>
                     <div className='flex items-center justify-center'>
                         <div className='bg-primary/30 w-24 h-24 rounded-full flex justify-center items-center border-8 '>

@@ -1,15 +1,28 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
 
+import building from '../assets/image/bilding.png'
+import bus from '../assets/image/bus.png'
+
 const Marque = () => {
     return (
-        <div className='relative '>
-            <div className='absolute'>
-                <img src="/src/assets/image/bilding.png" alt="" srcset="" />
+        <div className="relative w-full h-auto overflow-hidden">
+            {/* Background Image */}
+            <div className="absolute inset-0">
+                <img
+                    src={building}
+                    alt="Building"
+                    className="w-full h-full object-cover"
+                />
             </div>
 
-            <Marquee className='relative '>
-                <img src="/src/assets/image/bus.png" alt="" srcset="" />
+            {/* Marquee with Bus Image */}
+            <Marquee className="relative z-10" speed={50} gradient={false}>
+                <img
+                    src={bus}
+                    alt="Bus"
+                    className="w-auto h-20 object-contain"
+                />
             </Marquee>
         </div>
     );

@@ -1,11 +1,12 @@
 import React from 'react';
 import { AccordionCustomIcon } from './Accoding';
+import bus from '../assets/image/about.jpg'
 
 const About = () => {
     return (
-        <div className='min-h-screen px-20 pt-10'>
-            <div className='flex justify-between gap-5'>
-                <div className='w-1/2'>
+        <div className='min-h-screen md:px-20 px-3 pt-10'>
+            <div className='flex md:flex-row flex-col justify-between gap-5'>
+                <div className=' md:w-1/2 w-full'>
                     <h1 className='text-4xl font-bold pb-10'>Know Few Words About Autobus</h1>
                     <p className='flex flex-col gap-10 '>
                         <p className='text-1.5xl font-semibold'>
@@ -14,8 +15,8 @@ const About = () => {
                         </p>
                         <p className='leading-7'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos eveniet inventore blanditiis maxime doloremque minima. Quisquam, ex! Architecto laudantium culpa cupiditate hic facere est magni, possimus repudiandae, rerum eius omnis.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque excepturi sed possimus recusandae temporibus tempore, aspernatur, autem sequi natus iste fugit. Eaque vero temporibus illum quis beatae quam officia ad.ri sed possimus recusandae temporibus tempore, aspernatur, autem sequi natus iste fugit. Eaque vero temporibus sed possimus recusandae temporibus tempore, aspernatur, autem sequi natus iste fugit. Eaque vero temporibus illum quis beatae quam officia ad.</p></p>
                 </div>
-                <div className='w-1/2'>
-                    <img src="/src/assets/image/about.jpg" alt="" srcset="" className='rounded-md' />
+                <div className=' md:w-1/2 w-full'>
+                    <img src={bus} alt="" className='rounded-md' />
                 </div>
             </div>
             <div className='py-9'>
@@ -40,7 +41,7 @@ const About = () => {
             </div>
 
             <div className='flex justify-center flex-col items-center pt-20'>
-                <div className='w-1/2 flex items-center flex-col text-center gap-3' >
+                <div className=' md:w-1/2 w-full flex items-center flex-col text-center gap-3' >
                     <h1 className='text-4xl font-bold'> Frequently Asked Questions</h1>
                     <p>Nobis minus earum perferendis nemo cupiditate optio, rem neque incidunt quia laborum ut praesentium corporis quam exercitationem, atque illo aut excepturi cum.</p>
                 </div>

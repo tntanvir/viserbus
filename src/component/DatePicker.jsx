@@ -5,28 +5,33 @@ import {
     PopoverHandler,
     PopoverContent,
 } from "@material-tailwind/react";
-import { format } from "date-fns";
+import { format, setHours, setMinutes } from "date-fns";
 import { DayPicker } from "react-day-picker";
-import { useState } from "react";
 
 export default function DatePicker({ date, setDate }) {
+    const handleDateSelect = (selectedDate) => {
+
+        if (selectedDate) {
+            const adjustedDate = setHours(setMinutes(selectedDate, 0), 12);
+            setDate(adjustedDate);
+        }
+    };
 
     return (
         <div className="">
-            <Popover placement="top" >
+            <Popover placement="top">
                 <PopoverHandler>
                     <Input
                         label="Select a Date"
                         onChange={() => null}
                         value={date ? format(date, "PPP") : ""}
                     />
-
                 </PopoverHandler>
                 <PopoverContent>
                     <DayPicker
                         mode="single"
                         selected={date}
-                        onSelect={setDate}
+                        onSelect={handleDateSelect}
                         showOutsideDays
                         className="border-0 z-50"
                         classNames={{
@@ -61,7 +66,6 @@ export default function DatePicker({ date, setDate }) {
                             ),
                         }}
                     />
-
                 </PopoverContent>
             </Popover>
         </div>
