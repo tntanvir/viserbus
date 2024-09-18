@@ -39,7 +39,7 @@ const Hero = () => {
                 </div>
             </div>
             <div>
-                <img src="/src/assets/script.viserlab.com/Viserbus_-_Home/Screenshot 2024-09-14 042520.png" alt="" srcset="" width={500} />
+                <img src="/src/assets/image/haderimg.png" alt="" srcset="" width={500} />
             </div>
         </div>
     );

@@ -15,7 +15,7 @@ const About = () => {
                         <p className='leading-7'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos eveniet inventore blanditiis maxime doloremque minima. Quisquam, ex! Architecto laudantium culpa cupiditate hic facere est magni, possimus repudiandae, rerum eius omnis.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque excepturi sed possimus recusandae temporibus tempore, aspernatur, autem sequi natus iste fugit. Eaque vero temporibus illum quis beatae quam officia ad.ri sed possimus recusandae temporibus tempore, aspernatur, autem sequi natus iste fugit. Eaque vero temporibus sed possimus recusandae temporibus tempore, aspernatur, autem sequi natus iste fugit. Eaque vero temporibus illum quis beatae quam officia ad.</p></p>
                 </div>
                 <div className='w-1/2'>
-                    <img src="/src/assets/script.viserlab.com/Viserbus_-_About/10013.jpg" alt="" srcset="" className='rounded-md' />
+                    <img src="/src/assets/image/about.jpg" alt="" srcset="" className='rounded-md' />
                 </div>
             </div>
             <div className='py-9'>

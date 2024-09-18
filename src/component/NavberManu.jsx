@@ -69,7 +69,7 @@ export function NavbarManu() {
                         variant="h6"
                         className="mr-4 cursor-pointer py-1.5"
                     >
-                        <img src="/src/assets/script.viserlab.com/Viserbus_-_Home/10004.png" width={100} />
+                        <img src="/src/assets/image/logo.png" width={100} />
                     </Typography>
                 </Link>
                 <div className="hidden lg:block">
