@@ -52,7 +52,7 @@ export function Footer() {
             </div>
             <hr className="my-8 border-blue-gray-50" />
             <Typography color="white" className="text-center font-normal">
-                &copy; 2023 Material Tailwind
+                &copy; 2024 viserbus
             </Typography>
         </footer>
     );
